@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#formulario{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#tarefa{
+    height: 25px;
+}
+
+.form_tarefa{
+    border: 2px solid black;
+    padding: 15px;
+    display: flex;
+    min-width: 400px;
+    align-items: center;
+}
+
+.form_tarefa_input{
+    position: relative;
+    left: 30px;   
+}
+
+.form_tarefa_botao{
+    position: relative;
+    left: 150px;
+}
+
+.finalizada{
+    position: relative;
+    width: 40%;
+    left: 60px;
+    font-size: 15px;
+
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.pendente{
+    width: 40%;
+    position: relative;
+    left: 60px;
+    font-size: 15px;
+
+}
